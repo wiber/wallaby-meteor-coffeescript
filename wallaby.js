@@ -2,11 +2,11 @@ module.exports = function (w) {
 
   return {
     files: [
-      'src/*Browser.coffee'
+      'linkstate/imports/*Browser.coffee'
     ],
 
     tests: [
-      'test/*BrowserSpec.coffee'
+      'linkstate/test/*BrowserSpec.coffee'
     ]
 
     // CoffeeScript compiler is on by default with default options,

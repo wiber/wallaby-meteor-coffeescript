@@ -2,11 +2,11 @@ module.exports = function (w) {
 
   return {
     files: [
-      'src/*Node.coffee'
+      'linkstate/imports/*Node.coffee'
     ],
 
     tests: [
-      'test/*NodeSpec.coffee'
+      'linkstate/test/*NodeSpec.coffee'
     ],
 
     env: {
