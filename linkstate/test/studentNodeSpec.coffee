@@ -1,4 +1,4 @@
-Student = require '../src/studentNode'
+Student = require '../imports/studentNode'
 chai = require('chai')
 expect = chai.expect
 
